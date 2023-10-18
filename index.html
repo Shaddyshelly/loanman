@@ -83,13 +83,47 @@
   <section id="hero">
 
     <div class="hero-text" data-aos="zoom-out">
-      <h2>New car Loan</h2>
-      <p>Welcome to LOANMAN - Your Gateway to Financial Freedom</p>
-      <!-- <div class="box">
+      <div class="container d-flex">
+        <div class="col-lg-6" style="text-align: left; padding: 0 12px;">
+          <h2>Unlock Your Drive to Financial Freedom with <span style="color: rgb(67, 255, 89);">LOANMAN</span></h2>
+          <p>Instant Car Loans, Insurance, and More – Your Fast Lane to Affordable Automotive Dreams.</p>
+          <p>Welcome to Loanman, where your automotive dreams become reality. We're not just about loans; we're about
+            empowering your journey.</p>
+        </div>
+        <!-- <div class="box">
         <p style="font-size: 16px;">Empower your dreams with LOANMAN, where securing your future begins. Explore tailored financial solutions and
           comprehensive car insurance services. Your journey to financial well-being starts here.</p>
       </div> -->
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <div class="col-lg-6">
+          <div class="form-hero">
+            <form id="leadForm" action="" onsubmit="receiveMessage(event)" method="post"
+              class="sign-up-form d-flex flex-column aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <p style="color: rgb(67, 255, 89);">Enter Your Details here : </p>
+              <input type="text" class="form-control userName" placeholder="Enter Your Name" required="">
+              <input type="number" class="form-control userNum" placeholder="Enter Your Contact Number" required="">
+              <input type="text" class="form-control userCity" placeholder="City" required="">
+              <input type="text" class="form-control userCity" placeholder="City" required="">
+              <input type="text" class="form-control userCity" placeholder="City" required="">
+              <input type="text" class="form-control userCity" placeholder="City" required="">
+              <!-- <input type="text" class="form-control" placeholder="Current Marketing Goals:"> -->
+              <select name="userOccu" id="userOccu" class="form-control userOccu" style="padding: 7px;
+          border-radius: 6px;" required="">
+                <option value="" selected="">Salaried / Self Employed</option>
+                <option value="Salaried">Salaried</option>
+                <option value="Self Employed">Self Employed</option>
+              </select>
+              <select name="userInc" id="userInc" class="form-control userInc" style="padding: 7px;
+          border-radius: 6px;" required="">
+                <option value="" selected="">Annual Income</option>
+                <option value="Less than 5 Lacs">Less than 5 Lacs</option>
+                <option value="Above 5 Lacs">Above 5 Lacs</option>
+              </select>
+              <input type="submit" class="btn btn-primary" value="Submit" required="" style="margin-top: 0.3rem;">
+            </form>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="scroll-text" data-aos="zoom-out">
